@@ -180,7 +180,7 @@ const App: React.FC = () => {
    * Updates style and reprocesses text only when font family or size changes
    */
   const handleStyleChange = useCallback((newStyle: TextStyle) => {
-    const oldStyle = style;
+    //const oldStyle = style;
     setStyle(newStyle);
     
     // Always reprocess text when any font property changes
